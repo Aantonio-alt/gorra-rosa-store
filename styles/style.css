@@ -1,0 +1,251 @@
+body{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 300;
+    color: #151515;
+    font-family: "Rubik",'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+
+
+.masinfo {
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 20px;
+    
+
+}
+
+a:hover {
+    color: #fc4dca;
+}
+
+a:visited {
+    color: #a327a3;
+}
+
+a:active {
+    color: #300132;
+}
+
+img {
+    width: 80px;
+
+}
+.productos-lista li:first-child {
+    border: 2px solid rgb(255, 217, 243);
+    padding: 10px 35px;
+}
+
+.productos-lista li:last-child {
+    border: 2px solid rgb(255, 197, 249);
+    padding: 10px 65px;
+}
+
+header{
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    background-color: #ffffff;
+}
+.iconos {
+    padding: 0;
+    margin: 5px 0 0 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+.iconos img {
+    width: 30px;
+    padding: 10px 50px;
+    
+}
+
+.banner {
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+    background-image: url(https://cdn.shopify.com/s/files/1/1433/0796/files/BANNER_GORRAS_2048x682px.png?v=1592244817);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 0%;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.info {
+    padding: 20px 100px;
+
+}
+
+.info h2{
+    font-size: 40px;
+    color: #C71585;
+    padding: 0px;
+
+}
+
+.info p {
+    font-size: 20px;
+    
+}
+
+
+
+.productos {
+    width: 100%;
+    
+}
+
+#rosa {
+    width: 250px;
+}
+
+#populares{
+    font-size: 50px;
+    padding: 40px 10px;
+    text-align: center;
+    margin: 0;
+    background-color: #FF69B4;
+    color: #ffffff;
+}
+
+.productos-lista {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style-type: none;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.productos-lista img{
+    width: 200px;
+}
+
+.productos p{
+    font-size: 15px;
+}
+
+.productos-lista li:nth-child(2) {
+    background-color: #ffe7fd;
+    padding: 40px 30px;
+}
+
+
+.precio {
+    font-size: 30px;
+}
+
+
+.button {
+    text-align: center;
+  }
+  
+.button a {
+    display: inline-block;
+    padding: 20px 40px;
+    border: 1px solid #151515;
+    border-radius: 5px;
+    background-color: #000000;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.banner2 {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.contacto {
+    width: 100%;
+
+}
+
+.contacto h2 {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.address {
+    padding: 0px 70px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+form {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+.button2{
+    text-align: center;
+}
+  
+fieldset {
+    border: 0px solid ;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+  
+legend {
+    font-size: 30px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+  
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+  
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+}
+  
+
+  input[type="submit"] {
+    display: inline-block;
+    padding: 20px 40px;
+    border: 1px solid #151515;
+    border-radius: 5px;
+    background-color: #000000;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    align-items: center !important;
+  }
+
+
+footer {
+    padding: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #dd53dd;
+}
+
+article p:first-child::first-line {
+    font-size: 120%;
+    font-weight: bold;
+  }
+  
